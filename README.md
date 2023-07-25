@@ -1,14 +1,14 @@
-**This page describes how to install and setup PintOS**
+# This page describes how to install and setup PintOS
 
-**Virtual Machine Setup**
+## Virtual Machine Setup
 
 -- Create a Linux virtual machine (VM) using [Virtual Box](https://www.virtualbox.org/)
 
 -- Check whether the installation is successful
 
-**PintOS installation and Setup**
+## PintOS installation and Setup
 
-1. **Download and Install**
+### Download and Install
    
    a) Download the PintOS source files using:
    
@@ -47,7 +47,7 @@
       * Change `SIMULATOR = --bochs` to `SIMULATOR = --qemu`
       
    
-3. **Running PintOS Test-Cases**
+   ## Running PintOS Test-Cases
 
       Each project contains its own `tests` folder that contains individual tests. Some of the tests are the same across projects, and some vary. The tests are in your `build` folder under `tests/<project_name>/<test_name>`.
 
@@ -59,7 +59,7 @@
 
       * `result` - a text file with the outcome of the test’s run should be one of two words `PASS` if the test succeeded and `FAIL` if the test failed.
 
-   **Running a Single Test**
+   ### Running a Single Test
 
    a) Go to the project folder `$PINTOS_HOME/pintos/src/threads`
 
@@ -89,7 +89,7 @@
       `make VERBOSE=1 tests/threads/alarm-single.result`
 
 
-   **Running all the Test-Cases**
+   ### Running all the Test-Cases
 
    a) Go to folder `$PINTOS_HOME/pintos/src/threads`
 
