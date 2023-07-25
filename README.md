@@ -1,6 +1,4 @@
-***This page describes how to install and setup PintOS***
-
-Note: This page is created based on https://www.ccs.neu.edu/home/skotthe/classes/cs5600/fall/2016/labs/pintos-setup.html
+**This page describes how to install and setup PintOS**
 
 **Virtual Machine Setup**
 
@@ -102,3 +100,6 @@ Note: This page is created based on https://www.ccs.neu.edu/home/skotthe/classes
    d) Build all the test with the target `check`: `make check`
 
    Note: To see output on terminal, use `make VERBOSE=1 check`
+
+
+   Note: This page is created based on https://www.ccs.neu.edu/home/skotthe/classes/cs5600/fall/2016/labs/pintos-setup.html
