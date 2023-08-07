@@ -102,4 +102,4 @@ Note: `wget` will store the file in the same directory from which you run `wget`
    Note: To see output on terminal, use `make VERBOSE=1 check`
 
 
-   Credit: This page is created based on https://www.ccs.neu.edu/home/skotthe/classes/cs5600/fall/2016/labs/pintos-setup.html
+   Acknowledgement: This page is created based on https://www.ccs.neu.edu/home/skotthe/classes/cs5600/fall/2016/labs/pintos-setup.html
