@@ -2,6 +2,8 @@
 
 ## Virtual Machine Setup
 
+NOTE: We will use [QEMU](https://www.qemu.org/) as the emulator to run PintOS as a guest operating system. In addition, you may create a VM and use QEMU inside the VM to run PintOS.
+
 -- Create a Linux virtual machine (VM) using [Virtual Box](https://www.virtualbox.org/)
 
 -- Check whether the installation is successful
