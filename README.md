@@ -24,7 +24,7 @@ Note: `wget` will store the file in the same directory from which you run `wget`
 
    c) Adding PintOS programs to `PATH`:
 
-   * `sudo .bashrc` and add `$PINTOS_HOME/pintos/src/utils`
+   * `sudo nano .bashrc` and add `$PINTOS_HOME/pintos/src/utils`
 
    * Note: `PINTOS_HOME = /home/` in this case
 
