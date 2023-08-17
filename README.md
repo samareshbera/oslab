@@ -18,17 +18,17 @@ a) Download the PintOS source files using:
 
 ~~Note: `wget` will store the file in the same directory from which you run `wget`. Let's consider the directory as `PINTOS_DOWNLOAD_PATH`.~~
 
-  ~~b) Extract the PinOS source file using:~~
+  ~~Extract the PinOS source file using:~~
 
    ~~`tar xvzf PINTOS_DOWNLOAD_PATH/pintos-src.tgz'~~
 
-   **Revised to resolve error:** `Unrecognized character \x16; marked by ...`
+**Revised to resolve error:** `Unrecognized character \x16; marked by ...`
    
-   b) Download the latest version of PintOS using:
+b) Download the latest version of PintOS using:
    
    * `git clone git://pintos-os.org/pintos-anon`
 
-   c) Adding PintOS programs to `PATH`:
+c) Adding PintOS programs to `PATH`:
 
    * `sudo nano .bashrc` and add `$PINTOS_HOME/pintos/src/utils`
 
@@ -36,7 +36,7 @@ a) Download the PintOS source files using:
 
    * For example, `PATH=/usr/local/bin:$PATH:/home/pintos/src/utils`
 
-   d) Configure `gdb` macros to use `gdb` with PintOS. The macros are stored in `$PINTOS_HOME/pintos/src/utils/pintos-gdb`
+d) Configure `gdb` macros to use `gdb` with PintOS. The macros are stored in `$PINTOS_HOME/pintos/src/utils/pintos-gdb`
 
    * Go to `$PINTOS_HOME/pintos/src/utils/`
 
@@ -44,9 +44,9 @@ a) Download the PintOS source files using:
 
    * Change `GDBMACROS` as follows: `GDBMACROS=$PINTOS_HOME/pintos/src/misc/gdb-macros`
 
-   e) Go to `$PINTOS_HOME/pintos/src/utils` and build PintOS using `make`
+e) Go to `$PINTOS_HOME/pintos/src/utils` and build PintOS using `make`
 
-   f) We will use `qemu` emulator in this course. To do so, change the following:
+f) We will use `qemu` emulator in this course. To do so, change the following:
 
    * Go to `$PINTOS_HOME/pintos/src/threads`
    
