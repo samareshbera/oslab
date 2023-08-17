@@ -24,7 +24,9 @@ a) Download the PintOS source files using:
 
    **Revised to resolve error:** `Unrecognized character \x16; marked by ...'
    
-   b) Download the latest version of PintOS using `git clone git://pintos-os.org/pintos-anon'
+   b) Download the latest version of PintOS using:
+   
+   * `git clone git://pintos-os.org/pintos-anon'
 
    c) Adding PintOS programs to `PATH`:
 
