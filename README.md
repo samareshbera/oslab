@@ -14,13 +14,16 @@ NOTE: We will use [QEMU](https://www.qemu.org/) as the emulator to run PintOS as
    
 a) Download the PintOS source files using:
    
-`wget https://samareshbera.github.io/files/pintos-src.tgz`
+~~`wget https://samareshbera.github.io/files/pintos-src.tgz`~~
 
-Note: `wget` will store the file in the same directory from which you run `wget`. Let's consider the directory as `PINTOS_DOWNLOAD_PATH`.
+~~Note: `wget` will store the file in the same directory from which you run `wget`. Let's consider the directory as `PINTOS_DOWNLOAD_PATH`.~~
 
-   b) Extract the PinOS source file using:
+  ~~b) Extract the PinOS source file using:~~
 
-   `tar xvzf PINTOS_DOWNLOAD_PATH/pintos-src.tgz`
+   ~~`tar xvzf PINTOS_DOWNLOAD_PATH/pintos-src.tgz'~~
+
+   **Revised to resolve error:** `Unrecognized character \x16; marked by ...'
+   b) Download the latest version of PintOS using `git clone git://pintos-os.org/pintos-anon'
 
    c) Adding PintOS programs to `PATH`:
 
