@@ -36,6 +36,14 @@ c) Adding PintOS programs to `PATH`:
 
    * For example, `PATH=/usr/local/bin:$PATH:/home/pintos/src/utils`
 
+   * If the above path configuration fails, do the following:
+     
+   * `echo PATH="$PATH:/<path_pintos>/src/utils" >> ~/.bashrc`
+     
+   * `source ~/.bashrc`
+     
+   * run `pintos` to check whether the path configuration is successful.
+
 d) Configure `gdb` macros to use `gdb` with PintOS. The macros are stored in `$PINTOS_HOME/pintos/src/utils/pintos-gdb`
 
    * Go to `$PINTOS_HOME/pintos/src/utils/`
